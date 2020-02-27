@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-rows: 50px auto 100px;
+    background-color: black;
+    grid-row-gap: 15px;
+    padding: 15px;
+    height: 95vh;
+    width: 55%;
+    margin: auto;
+    box-shadow: 10px 10px 5px lightgray;
+}
+
+.container>div {
+    background-color: white;
+    color:black;
+}
+
+
+li {
+    display: inline;
+    border:white ridge 2px;
+    padding: 4px 6px;
+    font-family: Single Day;
+    font-size: 17px;
+    float: left;
+    margin-right: 0.5rem;
+    box-shadow: 5px 5px 3px lightslategray;
+}
+ul {
+   margin: 5px;
+   float: right;
+}
+
+.container .nav-container li a:hover {
+    color: red;
+}
+.container .nav-container li a {
+    color: black;
+    text-decoration: none;
+    background-color:  lightblue;
+
+}
