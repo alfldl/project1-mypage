@@ -19,15 +19,38 @@ nav {
 from { 
     float: right;
 }
+
 button {
-    padding: 20px 40px;
+    background-color: #f1f1f1;
+    padding: 10px 30px;
     margin: 15px 15px 5px 0px;
     float: left;
     box-shadow: 5px 5px 5px #3d3333;
+    font-family: 'Lacquer';
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+
 }
 
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #ccc;
+   
+}
+button:hover > a {
+    color:white;
+
+}
+
+
+
 section {
-    background-color: snow ;
+    background-color: #f1f1f1 ;
     position: relative;
     height: 73%;
     top: 15px;
@@ -52,3 +75,4 @@ footer {
     position: relative;
     top: 25px; 
 }
+
