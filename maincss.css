@@ -1,0 +1,54 @@
+div {
+    background-color: #3d3333;
+    height: 100vh;
+    width: 58%;
+    margin: auto;
+   
+    
+}
+
+nav {
+    background-color: #666;
+    height: 10%;
+    margin: 15px;
+    position: relative;
+    top: 15px;
+    
+}
+
+from { 
+    float: right;
+}
+button {
+    padding: 20px 40px;
+    margin: 15px 15px 5px 0px;
+    float: left;
+    box-shadow: 5px 5px 5px #3d3333;
+}
+
+section {
+    background-color: snow ;
+    position: relative;
+    height: 73%;
+    top: 15px;
+    margin: 15px;
+    overflow: auto;
+
+}
+
+footer {
+    background-color:#666;
+    height: 8%;
+    position: relative;
+    top: 15px;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.footerf {
+    font-size: 11px;
+    color: white;
+    position: relative;
+    top: 25px; 
+}
