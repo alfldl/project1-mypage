@@ -23,11 +23,11 @@ from {
 button {
     background-color: #f1f1f1;
     padding: 10px 30px;
-    margin: 15px 15px 5px 0px;
+    margin: 20px 15px 5px 0px;
     float: left;
     box-shadow: 5px 5px 5px #3d3333;
-    font-family: 'Lacquer';
-    font-size: 24px;
+    font-family: 'Righteous';
+    font-size: 20px;
     color: black;
     font-weight: bold;
 
@@ -69,10 +69,10 @@ footer {
 
 }
 
-.footerf {
+.footerLogo {
     font-size: 11px;
     color: white;
     position: relative;
-    top: 25px; 
+    top: 15%;
 }
 
