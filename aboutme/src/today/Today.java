@@ -10,17 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Servlet implementation class Today
- */
+
 @WebServlet("/today")
 public class Today extends HttpServlet {
 	private static final long serialVersionUID = 1L;
    
 	SimpleDateFormat format1 = new SimpleDateFormat("yyyy년 MM월dd일");
 	SimpleDateFormat format2 = new SimpleDateFormat("HH시 mm분ss초");
-	java.util.Date day = new java.util.Date();
-	java.util.Date time = new java.util.Date();
 	
     public Today() {
         super();
@@ -31,8 +27,9 @@ public class Today extends HttpServlet {
 		response.setContentType("text/html; charset=euc-kr");
 		PrintWriter out = response.getWriter();	
 
-		String days = format1.format(day);
-		String times = format2.format(time);
+		java.util.Date date = new java.util.Date();
+		String days = format1.format(date);
+		String times = format2.format(date);
 		
 		out.print("<html>"
 				+"<head>"

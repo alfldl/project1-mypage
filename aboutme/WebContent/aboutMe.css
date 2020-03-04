@@ -17,8 +17,6 @@ nav {
     overflow: hidden;
     text-overflow: ellipsis; 
     
-    
-    
 }
 
 nav ul { 
@@ -66,39 +64,6 @@ section {
 
 }
 
-section ul { 
-    list-style: none;
-    margin: 50px 0px;
-    padding-inline-start: 0px;
-    
-    
-}
-
-section li {
-	display: inline;
-    background-color: #396; 
-    padding: 25px;
-    margin-right: 10px;
-    box-shadow: 5px 5px 5px #3d3333;
-
-}
-
-section li a {
-    font-family: 'Righteous';
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-section li:hover {
-    background-color: #369;
-   
-}
-
-section li:hover > a {
-    color: #396;
-   
-}
 
 
 footer {
@@ -119,11 +84,3 @@ footer > a {
 }
 
 
-h2 {
-	margin-top: 20px;
-}
-
-.main {
-	    text-align:center;
-	
-}

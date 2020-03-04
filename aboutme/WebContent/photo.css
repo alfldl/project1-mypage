@@ -17,8 +17,6 @@ nav {
     overflow: hidden;
     text-overflow: ellipsis; 
     
-    
-    
 }
 
 nav ul { 
@@ -57,7 +55,7 @@ nav li:hover > a {
 
 
 section {
-    background-color: #f1f1f1 ;
+    background-color: white ;
     height: 73%;
     position: relative;
     top: 15px;
@@ -66,38 +64,24 @@ section {
 
 }
 
-section ul { 
-    list-style: none;
-    margin: 50px 0px;
-    padding-inline-start: 0px;
-    
-    
+.img1{
+	float:left;
+	margin: 35px;
+}
+.img2 {
+	float:left;
+	margin: 50px 10px 0px 10px; 
+	
 }
 
-section li {
-	display: inline;
-    background-color: #396; 
-    padding: 25px;
-    margin-right: 10px;
-    box-shadow: 5px 5px 5px #3d3333;
-
+.text1 {
+	position: relative;
+	top: 50px;
 }
 
-section li a {
-    font-family: 'Righteous';
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-section li:hover {
-    background-color: #369;
-   
-}
-
-section li:hover > a {
-    color: #396;
-   
+.text2 {
+	position: relative;
+	top: 100px;
 }
 
 
@@ -119,11 +103,3 @@ footer > a {
 }
 
 
-h2 {
-	margin-top: 20px;
-}
-
-.main {
-	    text-align:center;
-	
-}
