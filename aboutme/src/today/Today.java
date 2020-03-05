@@ -33,7 +33,7 @@ public class Today extends HttpServlet {
 		
 		out.print("<html>"
 				+"<head>"
-				+"    <link href=\"main.css\" rel=\"stylesheet\">\r\n" 
+				+"    <link href='main.css' rel='stylesheet'>" 
 				+"    <link href=\"https://fonts.googleapis.com/css?family=Righteous&display=swap\" rel=\"stylesheet\">\r\n"
 				+ "<title>TODAY</title>"
 				+ "</head>"
@@ -44,7 +44,7 @@ public class Today extends HttpServlet {
 		        + "       <li><a href='main.html'>HOME</a></li>"
 		        + "       <li><a href='aboutME.html'>AboutMe</a></li>"
 		        + "       <li><a href='photo.html'>Photo</a></li>"
-		        + "        <li><a href='/aboutme/today'>Today</a></li>"
+		        + "       <li><a href='/aboutme/today'>Today</a></li>"
 		        + "   </ul>"
 		        + "</nav>"
 		        + "<section>"
