@@ -38,7 +38,7 @@ public class Today extends HttpServlet {
 				+ "<title>TODAY</title>"
 				+ "</head>"
 				+ "<body>"
-			    + "<div>"
+			    + "<div id='div'>"
 		        + "<nav>"
 		        + "   <ul>"
 		        + "       <li><a href='main.html'>HOME</a></li>"

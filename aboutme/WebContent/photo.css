@@ -1,10 +1,11 @@
-div {
+#div {
     background-color: #3d3333;
     height: 100vh;
     width: 58%;
     margin: auto;
     min-width: 700px;
     min-height: 800px;
+    
     
 }
 
@@ -67,11 +68,18 @@ section {
 .img1{
 	float:left;
 	margin: 35px;
+	margin-left: 100px;
 }
 .img2 {
 	float:left;
-	margin: 50px 10px 0px 10px; 
+	margin: 50px 10px 30px 50px; 
 	
+}
+
+.img {
+ 	margin: 0px 10px;
+ 	border: 10px outset #07ab8d;
+    
 }
 
 .text1 {
@@ -81,9 +89,25 @@ section {
 
 .text2 {
 	position: relative;
-	top: 100px;
+	top: 150px;
+	margin-right:50px;
 }
 
+.div1 {
+	   border-bottom: double;
+	   
+	  
+}
+.div2 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 footer {
     background-color:#666;
@@ -98,7 +122,7 @@ footer {
 footer > a {
     font-size: 11px;
     color: white;
-    position: relative;
+    position: relativ
     top: 15%;
 }
 
